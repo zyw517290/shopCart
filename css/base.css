@@ -327,9 +327,7 @@ body {
 }
 
 input[type="text"], textarea {
-    padding: .5em 20px;
     border: 1px solid #bbb;
-    background: #white;
 }
 
 .up-down-btn {
@@ -499,4 +497,30 @@ input[type="text"], textarea {
     width: 40px;
     padding: 5px 10px;
     text-align: center;
+}
+.price-add{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	background-color:#CCCCCC;
+	margin-right:10px;
+}
+.price-less{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	background-color:#CCCCCC;
+	margin-left:10px;
+}
+.quantity{
+	margin-top:15px;
+}
+.price-total{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align: center;
 }
